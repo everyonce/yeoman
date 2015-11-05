@@ -1,5 +1,5 @@
 # Yeoman with some generators and prerequisites
-FROM ubuntu:saucy
+FROM ubuntu
 MAINTAINER Kevin Littlejohn <kevin@littlejohn.id.au>
 RUN apt-get -yq update && apt-get -yq upgrade
 # Install pre-requisites
